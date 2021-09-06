@@ -234,7 +234,6 @@ nav li {
 }
 
 #about-me-container {
-    border: 10px solid var(--dark-blue-color);
     background-color: var(--dark-blue-color);
     display: flex;
     height: 60vh;
@@ -243,8 +242,28 @@ nav li {
 }
 
 #about-me-left {
-    /* border: 5px solid aqua; */
-    width: 40vw;
+    width: 50vw;
+}
+
+#about-me-left h2 {
+    margin: 4rem 4rem 2rem 4rem;
+    font-weight: 300;
+}
+
+#about-me-left p {
+    font-weight: 100;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+
+#about-me-left .socials {
+    margin-left: 4rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.socials i {
+    margin: 1rem;
 }
 
 #about-me-left h2, #about-me-left p, #about-me-left i{
@@ -276,7 +295,10 @@ nav li {
 
 #about-me-right {
     /* border: 5px solid purple; */
-
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #about-me img {
