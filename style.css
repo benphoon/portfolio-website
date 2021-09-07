@@ -67,6 +67,10 @@
 }
 
 /* Resets */
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -312,8 +316,13 @@ nav li {
 }
 
 /* Skills */
-#skills h2 {
+#skills {
+    height: 50vh;
+}
+
+#skills h2, #skills p {
     color: black;
+    text-align: center;
 }
 
 #stack-cards {
@@ -325,6 +334,25 @@ nav li {
 
 #stack-cards i {
     color: black;
+}
+
+.icon-card {
+    height: 8rem;
+    width: 8rem;
+    text-align: center;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-card:hover {
+    border: 2px solid black;
+}
+
+.icon-card i {
+    margin: 1rem;
 }
 
 /* Connect section */
@@ -355,6 +383,17 @@ nav li {
 
 /* footer */
 footer {
-    height: 10vh;
+    height: 20vh;
+    background: url(images/banner-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer-window-container{
     background-color: rgba(0, 0, 0, 0.76);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
