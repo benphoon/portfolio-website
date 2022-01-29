@@ -538,18 +538,22 @@ nav li {
 
 #graphic-pizzaplace {
     background: url(/images/project-graphic-red.svg);
+    background-size: cover;
 }
 
 #graphic-weatherapp {
     background: url(/images/project-graphic-blue.svg);
+    background-size: cover;
 }
 
 #graphic-sportshub {
     background: url(/images/project-graphic-green.svg);
+    background-size: cover;
 }
 
 #graphic-jammming {
     background: url(/images/project-graphic-purple.svg);
+    background-size: cover;
 }
 
 /* footer */
